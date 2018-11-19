@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css.css" media="screen"/>
+    <title>Document</title>
+    </style>
+</head>
+<h1>Formulario 1
+
+</h1>
+<body>
+    <div id="a">
+        <form action="" method="get">
+    <div>
+        
+        <table >
+            <tr>
+                <td>
+                    <p>Tratamiento: *</p>
+
+                        <input type="radio" name="hm" value="h" required> Señor
+                        <input type="radio" name="hm" value="m" required> Señora
+                      
+                </td>
+                <td>
+                    <p>Nombre: *</p>
+                    <input type="text" name="nombre" required>
+                </td>
+                <td>
+                    <p>Apellido 1: *</p>
+                    <input type="text " name="apellido" required>
+                </td>
+                <td>
+                    <p>Apellido 2: *</p>
+                    <input type="text " name="apellido2" required>
+                </td>
+
+            </tr>
+            <tr>
+                <td><p>Tipo Doc: *</p>
+                    <select name="DNI">
+                        <option value="1">DNI</option>
+                        <option value="2">NIE</option>
+                      </select>
+                </td>
+                <td>
+                    <p>NºDoc: *</p>
+                    <input type="text"name="Ndoc" required>
+                </td>
+                <td>
+                    <p>Fecha de nacimiento</p>
+                    Fecha: <input type="date" name="fechanacimiento" size="20" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>País de nacimiento: *</p>
+                    <select name="Pais" required>
+                        <option value="españa">España</option>
+                        <option value="francia">Francia</option>
+                        <option value="inglaterra">Inglaterra</option>
+                        <option value="alemania">Alemania</option>
+                    </select>
+                </td>
+                <td>
+                    <p>Nacionalidad: *</p>
+                    <select name="Nacionalidad" required>
+                        <option value="españa">España</option>
+                        <option value="francia">Francia</option>
+                        <option value="inglaterra">Inglaterra</option>
+                        <option value="alemania">Alemania</option>
+                    </select>
+                </td>
+                <td>
+                        <p>Segunda Nacionalidad: *</p>
+                        <select name="SecNacionalidad">
+                            <option value="españa">España</option>
+                            <option value="francia">Francia</option>
+                            <option value="inglaterra">Inglaterra</option>
+                            <option value="alemania">Alemania</option>
+                        </select>
+                </td>
+                <td>
+                        <p>País residencia fiscal: *</p>
+                        <select name="ResidenciaF" required>
+                            <option value="españa">España</option>
+                            <option value="francia">Francia</option>
+                            <option value="inglaterra">Inglaterra</option>
+                            <option value="alemania">Alemania</option>
+                        </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p>Trabajo*</p>
+                    <select name="trabajo" required>
+                        <option value="empleado">Empleado</option>
+                        <option value="empresario">Empresario</option>
+                        <option value="Freelance">Free lance</option>
+                        <option value="estudiante">Estudiante</option>
+                    </select>
+                </td>
+                <td>
+                        <p>Tipo de actividad*</p>
+                        <select name="actividad" required>
+                            <option value="programador">programador</option>
+                            <option value="Contable">Contable</option>
+                            <option value="Admin">Admin</option>
+                            <option value="Jefe">Jefe</option>
+                        </select>
+                </td>
+                <td>
+                        <p>Sector Profesional*</p>
+                        <select name="trabajo" required>
+                            <option value="empleado">Empleado</option>
+                            <option value="empresario">Empresario</option>
+                            <option value="Freelance">Free lance</option>
+                            <option value="estudiante">Estudiante</option>
+                        </select>
+                </td>
+                <td>
+                    <p>Empresa: *</p>
+                    <input type="text" name "Empresa" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Propósito de la cuenta: *</p>
+                    <select name="prop">
+                        <option value="Ahorro">Ahorro</option>
+                        <option value="Defraudar">Defraudar</option>
+                    </select>
+                </td>
+                <td>
+                    <p>Origen de sus ahorros: *</p>
+                    <select name="Origen">
+                            <option value="Trabajar">Ahorro</option>
+                            <option value="Defraudar">Defraudar</option>
+                        </select>
+                </td>
+                
+            </tr>
+        </table>
+    </div>
+    <div id="b">
+        <table>
+            <tr>
+                <td>
+                    <p>Tipo de vía*</p>
+        <select name="Tipo">
+                <option value="Calle">Calle</option>
+                <option value="Avenida">Avenida</option>
+            </select>
+                </td>
+                <td>
+                    <p>Dirección*</p>
+                    <input type="text"name "Dirección" size="30" required>
+                </td>
+                <td>
+                    <p>Número *</p>
+                    <input type="text"name "Número" size="10" required>
+                </td>
+                <td>
+                    <p>Piso</p>
+                    <input type="text"name "Piso" size="10" required>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Urb./Pol./Otros</p>
+                <input type="text"name "urb">
+            </td>
+            <td>
+                <p>Localidad *</p>
+                <input type="text" name="Localidad" required>
+            </td>
+            <td>
+                <p>Provincia *</p>
+                <select name="Provincia" required>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Cataluña">Cataluña</option>
+                </select>
+            </td>
+            <td>
+                <p>Código postal *</p>
+                <input type="text"name="Cod" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Móvil:*</p>
+                <input type="text" name="movil" required>
+            </td>
+            <td>
+                <p>Teléfono particular:*</p>
+                <input type="text"name="particular">
+            </td>
+            <td>
+                <p>EMAIL*</p>
+                <input type="text"name="email">
+            </td>
+        </tr>
+        </table>
+    </div>
+    <hr>
+    <p>Para ofrecerle un mejor servicio nos gustaría conocer si posee en otra entidad:</p>
+    <table>
+        <tr>
+            <td>
+                    <input type="radio" name="a" value="Plan" required> Plan de pensiones
+                    <input type="radio" name="a" value="Fondos" required> Fondos
+                    <input type="radio" name="a" value="Accioens" required> Acciones
+                    <input type="radio" name="a" value="Hipo" required> Hipoteca
+                    <input type="radio" name="a" value="Prestamo" required> Préstamo
+                    <input type="radio" name="a" value="Seguro" required> Seguro de vida
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Enviar">
+        </form>
+    
+    <p>Puede consultar en nuestra web toda la información que usted necesite y pulsando aceptar está aceptando las políticas de protección de datos.</p>
+</div>
+    <br><br><b></b>
+    <h1>Formulario 2</h1>
+    <br>
+<p>Aquí va la imagen</p>
+<form action="">
+<table>
+    <tr>
+        <td>
+       <p>Email *</p>
+       <input type="text"name="email" required>     
+        </td>
+        <td>
+            <p>DNI o Tarjeta de residencia *</p>
+            <input type="text" name="DNI" required>
+        </td>
+        <td>
+            <p>Fecha de nacimiento *</p>
+            <input type="date" required>
+
+        </td>
+    </tr>
+</table>
+<p>*Campo obligatorio</p>
+<hr>
+<div id="c">
+<input type="submit" value="Continuar">
+</div>
+</form>
+</body>
+</html>
